@@ -319,7 +319,7 @@ volumes:
 # =============================================================================
 networks:
   internal:
-    name: haex-supabase-marketplace_internal
+    name: haex-marketplace-supabase_internal
     driver: bridge
   proxy:
     name: ${TRAEFIK_NETWORK:-proxy}
